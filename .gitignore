@@ -1,0 +1,4 @@
+.dropbox
+_site
+*.swp
+.DS_Store
