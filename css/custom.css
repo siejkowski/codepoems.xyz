@@ -5,3 +5,12 @@
 p {
   font-size: 1.2em;
 }
+
+pre {
+  background-color: lightgrey;
+}
+
+pre code {
+  background-color: transparent;
+  border: none;
+}
