@@ -2,24 +2,19 @@
 layout: layout
 ---
 
-{% include header.html %} 
-{% include menu.html %}
-
 <div class="row">
-    <div class="small-12 large-3">
-        <div class="row">
-            <div class="small-12">
-                <a href="{{ page.url }}">{{ page.title }}</a>
-            </div>
-            <div class="small-12">
-                {{ page.author }}
-            </div>
-            <div class="small-12">
-                {{ page.date | date: "%Y-%m-%d" }}
-            </div>
-        </div>
+    <div class="small-12">
+        <a href="{{ page.url }}">{{ page.title }}</a>
     </div>
-    <div class="small-12 large-9">
-        {{ content }}
+    <div class="small-12">
+        {{ site.data.authors[page.author].display_name }}
     </div>
+    <div class="small-12">
+        {{ page.date | date: "%Y-%m-%d" }}
+    </div>
+</div>
+<div class="row">
+    <div class="small-1"></div>
+    <div class="small-10">{{ content }}</div>
+    <div class="small-1"></div>
 </div>

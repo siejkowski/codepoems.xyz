@@ -1,0 +1,23 @@
+---
+layout: layout
+title: Authors
+---
+
+<h2>Authors</h2>
+
+{% for author in site.data.authors %}
+{% assign author_key = author[0] %}
+<div class="row">
+  <div class="small-12">
+    <h2>{{ site.data.authors[author_key].display_name }}</h2>
+  </div>
+</div> 
+  {% for post in site.posts %}
+    {% if post.author == author_key %}
+<div class="row">
+  <div class="small-2"></div>
+  <div class="small-10"><a href="{{ post.url }}">{{ post.title }}</a></div>
+</div> 
+    {% endif %}
+  {% endfor %}
+{% endfor %}
