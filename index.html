@@ -9,7 +9,7 @@ title: Swift poetry
 <div class="poems">
   {% for post in site.posts %}
     <div class="row poem">
-      <div class="small-10 small-offset-1 large-offset-0 large-2 text-center large-text-right">
+      <div class="small-10 small-offset-1 large-offset-0 large-2 text-center large-text-right column">
         <div class="row">
           <div class="small-12">
             <a href="{{ post.url }}">{{ post.title }}</a>
@@ -22,9 +22,11 @@ title: Swift poetry
           </div>
         </div>
       </div>
-      <div class="small-10 small-offset-1 large-offset-1 large-9">
+      <div class="small-12 large-10 column">
           {{ post.content }}
         </div>
     </div>
   {% endfor %}
 </div>
+
+{% include footer.html %}
