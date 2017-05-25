@@ -1,3 +1,30 @@
 p {
   font-size: 1.2em;
 }
+
+a {
+  color: #f05138;
+}
+
+.logo {
+  font-size: 5em;
+}
+
+.header {
+  margin-bottom: 2em; 
+  margin-top: 2em;
+}
+
+.menu {
+  margin-bottom: 3em; 
+  margin-top: 3em;
+}
+
+.poem {
+  margin-bottom: 2em; 
+  margin-top: 2em;
+}
+
+.logo {
+  max-width: 90%;
+}
