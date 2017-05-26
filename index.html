@@ -9,18 +9,25 @@ title: Swift poetry
 <div class="poems">
   {% for post in site.posts %}
     <div class="row poem">
-      <div class="small-10 small-offset-1 large-offset-0 large-2 text-center large-text-right column">
-        <div class="row">
-          <div class="small-12">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+
+      <div class="small-10 small-offset-1 large-offset-0 large-2 text-right column">
+
+        <div class="row metadata align-middle">
+          <div class="small-6 large-12  column">
+            <h5><a href="{{ post.url }}">{{ post.title }}</a></h5>
           </div>
-          <div class="small-12">
-            {{ site.data.authors[post.author].display_name }}
-          </div>
-          <div class="small-12">
-            {{ post.date | date: "%Y-%m-%d" }}
+          <div class="small-6 large-12 text-right column">
+            <div class="row align-middle">
+              <div class="small-12 large-12 text-left large-text-right column">
+                {{ site.data.authors[post.author].display_name }}
+              </div>
+              <div class="small-12 large-12 text-left large-text-right column">
+                {{ post.date | date: "%Y-%m-%d" }}
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
       <div class="small-12 large-10 column">
           {{ post.content }}
