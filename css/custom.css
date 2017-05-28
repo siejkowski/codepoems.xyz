@@ -1,5 +1,5 @@
 p {
-  font-size: 1.2em;
+  margin-bottom: 0em;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 .poem .metadata {
-  margin-bottom: 2em; 
+  margin-bottom: 1em; 
 }
 
 .logo {

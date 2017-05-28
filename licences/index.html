@@ -1,0 +1,25 @@
+---
+layout: layout
+title: Licences
+---
+
+<h2>Licences</h2>
+
+{% for licence_ref in site.data.licences %}
+{% assign licence_key = licence_ref[0] %}
+{% assign licence = site.data.licences[licence_key] %}
+<div id="{{ licence_key }}" class="row">
+  <div class="small-12">
+    <h2>{{ licence.name }}</h2>
+  </div>
+  <div class="small-12">
+    <p>{{ licence.description }}</p>
+  </div>
+  <div class="small-12">
+    <a href="{{ licence.human }}">Detailed description</h2>
+  </div>
+  <div class="small-12">
+    <a href="{{ licence.legal }}">Legal code</a>
+  </div>
+</div> 
+{% endfor %}
