@@ -9,16 +9,16 @@ title: Licences
 {% assign licence_key = licence_ref[0] %}
 {% assign licence = site.data.licences[licence_key] %}
 <div id="{{ licence_key }}" class="row">
-  <div class="small-12">
+  <div class="small-12 column">
     <h2>{{ licence.name }}</h2>
   </div>
-  <div class="small-12">
+  <div class="small-12 column">
     <p>{{ licence.description }}</p>
   </div>
-  <div class="small-12">
+  <div class="small-12 column">
     <a href="{{ licence.human }}">Detailed description</h2>
   </div>
-  <div class="small-12">
+  <div class="small-12 column">
     <a href="{{ licence.legal }}">Legal code</a>
   </div>
 </div> 
