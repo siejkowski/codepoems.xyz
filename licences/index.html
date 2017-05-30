@@ -3,14 +3,18 @@ layout: layout
 title: Licences
 ---
 
-<h2>Licences</h2>
+<div class="row">
+  <div class="small-12 column">
+    <h1>Licences</h1>
+  </div>
+</div>
 
 {% for licence_ref in site.data.licences %}
 {% assign licence_key = licence_ref[0] %}
 {% assign licence = site.data.licences[licence_key] %}
 <div id="{{ licence_key }}" class="row">
   <div class="small-12 column">
-    <h2>{{ licence.name }}</h2>
+    <h3>{{ licence.name }}</h3>
   </div>
   <div class="small-12 column">
     <p>{{ licence.description }}</p>
