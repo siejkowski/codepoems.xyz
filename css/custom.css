@@ -16,6 +16,12 @@ a {
   margin-top: 2em;
 }
 
+.menu .button {
+  margin-bottom: 0.25em; 
+  margin-top: 0.25em;
+  background-color: #ffffff;
+}
+
 .poem {
   margin-bottom: 10em;
   margin-top: 2em;
