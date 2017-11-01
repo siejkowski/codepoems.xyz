@@ -3,6 +3,9 @@ layout: layout
 title: Poems
 ---
 
+{% include header.html %}
+{% include menu.html underline_poems=true %}
+
 <div class="row">
   <div class="small-12 column">
     <h1>Poems</h1>
@@ -46,3 +49,5 @@ title: Poems
   </div>
 </div>
 {% endfor %}
+
+{% include footer.html %}

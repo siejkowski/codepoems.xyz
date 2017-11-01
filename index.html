@@ -3,8 +3,8 @@ layout: layout
 title: Swift poetry
 ---
 
-{% include header.html %} 
-{% include menu.html %}
+{% include header.html %}
+{% include menu.html underline_latest=true %}
 
 <div class="poems">
   {% for post in site.posts %}
@@ -31,7 +31,9 @@ title: Swift poetry
               {% assign playgroundSize = post.playground|size %}
               {% if playgroundSize > 0 %}
               <div class="small-12 column">
-                <p><a href="/static/playgrounds/{{ post.playground }}">Playground</a></p>
+                <p>
+                  <a href="/static/playgrounds/{{ post.playground }}">Playground</a>
+                </p>
               </div>
               {% endif %}
               {% assign licenceSize = post.licence|size %}
@@ -53,3 +55,4 @@ title: Swift poetry
 </div>
 
 {% include footer.html %}
+
