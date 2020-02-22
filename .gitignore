@@ -1,6 +1,6 @@
-.dropbox
-_site
-*.swp
 .DS_Store
-*.playground
-*.playground/
+/build
+/.build
+/.swiftpm
+/*.xcodeproj
+.publish
