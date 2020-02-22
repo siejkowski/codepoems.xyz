@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background: rgb(241, 241, 241);
 }
 .container {
     width: 100%;
@@ -30,7 +31,7 @@ img {
 }
 
 a {
-    color: grey;
+    color: rgb(67, 67, 67);
     font-family: monospace;
     text-decoration: underline;
     font-size: 125%;
