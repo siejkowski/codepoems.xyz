@@ -22,19 +22,23 @@ img {
     position: absolute;
     text-align: right;
     right: 5%;
+    height: 4vh;
+    bottom: 6vh;
 }
 
 .next {
     position: absolute;
     text-align: left;
     left: 5%;
+    height: 4vh;
+    bottom: 2vh;
 }
 
 a {
     color: rgb(67, 67, 67);
     font-family: monospace;
     text-decoration: underline;
-    font-size: 125%;
+    font-size: 100%;
 }
 
 .footer {
