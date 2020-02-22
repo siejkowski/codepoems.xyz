@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;    
+    margin: 0;
+}
+img {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 95vh;
+    object-fit: contain;
+}
+
+.prev {
+    position: absolute;
+    text-align: right;
+    right: 5%;
+}
+
+.next {
+    position: absolute;
+    text-align: left;
+    left: 5%;
+}
+
+a {
+    color: grey;
+    font-family: monospace;
+    text-decoration: underline;
+    font-size: 125%;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+}
