@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://swiftpoetry.com</loc>
+    <lastmod>2020-02-29</lastmod>
+  </url>
+
+  <url>
+    <loc>https://swiftpoetry.com/refusing/</loc>
+    <lastmod>2020-02-29</lastmod>
+  </url>
+
+  <url>
     <loc>https://swiftpoetry.com/threeWitches/</loc>
     <lastmod>2020-02-26</lastmod>
   </url>
@@ -13,11 +23,6 @@
 
   <url>
     <loc>https://swiftpoetry.com/headlight/</loc>
-    <lastmod>2020-02-26</lastmod>
-  </url>
-
-  <url>
-    <loc>https://swiftpoetry.com</loc>
     <lastmod>2020-02-26</lastmod>
   </url>
 
