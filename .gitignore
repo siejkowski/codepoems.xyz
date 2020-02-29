@@ -4,3 +4,5 @@
 /.swiftpm
 /*.xcodeproj
 .publish
+_site
+.jekyll-cache
