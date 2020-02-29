@@ -17,7 +17,7 @@
         <!-- <meta name="twitter:description" content="A description of swiftpoetry.com"/> -->
         <!-- <meta name="og:description" content="A description of swiftpoetry.com"/> -->
         <!-- <meta name="twitter:card" content="summary"/> -->
-        <link rel="stylesheet" href="../styles/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="{{ "/styles/styles.css" | absolute_url }}" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/png"/> -->
         <!-- <link rel="alternate" href="feed.rss" type="application/rss+xml" title="Subscribe to swiftpoetry.com"/> -->
@@ -26,19 +26,19 @@
         <div class="container">
             <img 
                 alt="{{ page.poem }}"
-                src="../images/{{ page.title }}.jpg"
+                src="{{ "/images/" | absolute_url }}{{ page.title }}.jpg"
             />
             <div class="footer">
                 {% if page.next_poem %}
                 <span class="next">
-                    <a href="{% unless page.top %}../{% endunless %}{{ page.next_poem }}/">
+                    <a href="{{ "/" | absolute_url }}{{page.next_poem}}">
                         {{ page.next_poem }} (week {{ page.week | plus: 1 }}, {{ page.year }})
                     </a>
                 </span>
                 {% endif %}
                 {% if page.previous_poem %}
                 <span class="prev">
-                    <a href="{% unless page.top %}../{% endunless %}{{ page.previous_poem }}/">
+                    <a href="{{ "/" | absolute_url }}{{page.previous_poem}}">
                         {{ page.previous_poem }} (week {{ page.week | minus: 1 }}, {{ page.year }})
                     </a>
                 </span>
