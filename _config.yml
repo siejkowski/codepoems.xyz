@@ -1,0 +1,4 @@
+collections:
+  poems:
+    output: true
+    permalink: /:path/

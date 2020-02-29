@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,14 +10,14 @@
         <link rel="canonical" href="https://swiftpoetry.com"/>
         <!-- <meta name="twitter:url" content="https://swiftpoetry.com"/> -->
         <!-- <meta name="og:url" content="https://swiftpoetry.com"/> -->
-        <title>refusing | swiftpoetry.com</title>
+        <title>{{ page.title }} | swiftpoetry.com</title>
         <!-- <meta name="twitter:title" content="Welcome to SwiftpoetryCom! | swiftpoetry.com"/> -->
         <!-- <meta name="og:title" content="Welcome to SwiftpoetryCom! | swiftpoetry.com"/> -->
         <!-- <meta name="description" content="A description of swiftpoetry.com"/> -->
         <!-- <meta name="twitter:description" content="A description of swiftpoetry.com"/> -->
         <!-- <meta name="og:description" content="A description of swiftpoetry.com"/> -->
         <!-- <meta name="twitter:card" content="summary"/> -->
-        <link rel="stylesheet" href="styles/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="../styles/styles.css" type="text/css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <!-- <link rel="shortcut icon" href="images/favicon.png" type="image/png"/> -->
         <!-- <link rel="alternate" href="feed.rss" type="application/rss+xml" title="Subscribe to swiftpoetry.com"/> -->
@@ -22,36 +25,24 @@
     <body>
         <div class="container">
             <img 
-                alt="refusing
-
-
-we.exist
-just(because:)
-we.refuse(to: believe, that: we.donʼt) {
-
-weʼre in love
-just(because:)
-we.refuse(to: believe, that: weʼre.not)
- 
-weʼre.now
-just(because:)
-we.refuse(to: believe, we.shall(pass)) }
-     
-every[day]
-you.bring(me, the: oxygen)
-I.bring (you, the: coffee)
-and { we.keep(refusing)
-        .keep(refusing)
-(to: believe, thereʼs.nothing(to: bring)) }
-
-
-// in Swift, by siejkowski"
-                src="images/refusing.jpg"
+                alt="{{ page.poem }}"
+                src="../images/{{ page.title }}.jpg"
             />
             <div class="footer">
-                <span class="prev">
-                    <a href="threeWitches/">threeWitches (week 8, 2020)</a>
+                {% if page.next_poem %}
+                <span class="next">
+                    <a href="{% unless page.top %}../{% endunless %}{{ page.next_poem }}/">
+                        {{ page.next_poem }} (week {{ page.week | plus: 1 }}, {{ page.year }})
+                    </a>
                 </span>
+                {% endif %}
+                {% if page.previous_poem %}
+                <span class="prev">
+                    <a href="{% unless page.top %}../{% endunless %}{{ page.previous_poem }}/">
+                        {{ page.previous_poem }} (week {{ page.week | minus: 1 }}, {{ page.year }})
+                    </a>
+                </span>
+                {% endif %}
             </div>
         </div>
     </body>
