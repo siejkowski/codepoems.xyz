@@ -1,3 +1,12 @@
+@font-face {
+  font-family: JetBrainsMono-Regular;
+  src: url('../fonts/JetBrainsMono-Regular.eot');
+  src: url('../fonts/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'), 
+    url('../fonts/JetBrainsMono-Regular.woff') format('woff'),
+    url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     background: rgb(241, 241, 241);
@@ -7,41 +16,76 @@ body {
     height: 100vh;    
     margin: 0;
 }
-img {
-    margin-top: 0;
-    margin-bottom: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.header {
     width: 100%;
-    height: 95vh;
-    object-fit: contain;
+    height: 3%;
+    margin: 0;
+    padding-top: 1%;
 }
 
-.prev {
-    position: absolute;
+.about {
     text-align: right;
-    right: 5%;
-    height: 4vh;
-    bottom: 6vh;
-}
-
-.next {
-    position: absolute;
-    text-align: left;
-    left: 5%;
-    height: 4vh;
-    bottom: 2vh;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
 }
 
 a {
-    color: rgb(67, 67, 67);
-    font-family: monospace;
+    color: rgb(88, 88, 88);
+    font-family: 'JetBrainsMono-Regular', monospace;
     text-decoration: underline;
-    font-size: 100%;
+    font-size: 95%;
+}
+
+.content {
+    width: 100%;
+    height: 85%;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
 }
 
 .footer {
     width: 100%;
-    height: 5vh;
+    height: 8%;
+    margin: 0;
+}
+
+.prev {
+    text-align: right;
+    vertical-align: top;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
+}
+
+.next {
+    margin-top: 0;
+    margin-left: 5%;
+    margin-bottom: 0;
+    margin-right: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+.info {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'JetBrainsMono-Regular', monospace;
+    color: rgb(33, 33, 33);
 }

@@ -10,7 +10,7 @@
         <link rel="canonical" href="https://swiftpoetry.com"/>
         <!-- <meta name="twitter:url" content="https://swiftpoetry.com"/> -->
         <!-- <meta name="og:url" content="https://swiftpoetry.com"/> -->
-        <title>{{ page.title }} | swiftpoetry.com</title>
+        <title>about | swiftpoetry.com</title>
         <!-- <meta name="twitter:title" content="Welcome to SwiftpoetryCom! | swiftpoetry.com"/> -->
         <!-- <meta name="og:title" content="Welcome to SwiftpoetryCom! | swiftpoetry.com"/> -->
         <!-- <meta name="description" content="A description of swiftpoetry.com"/> -->
@@ -23,34 +23,13 @@
         <!-- <link rel="alternate" href="feed.rss" type="application/rss+xml" title="Subscribe to swiftpoetry.com"/> -->
     </head>
     <body>
-        <div class="container">
+        <div class="info">
             <div class="header">
-                <div class="about">
-                    <a href="{{ "/" | absolute_url }}about/">about</a>
-                </div>
+            <div class="back">
+                <a href="{{ "/" | absolute_url }}"><- back</a>
             </div>
-            <div class="content">
-            <img 
-                alt="{{ page.poem }}"
-                src="{{ "/images/" | absolute_url }}{{ page.title }}.jpg"
-            />
-            </div>
-            <div class="footer">
-                {% if page.next_poem %}
-                <div class="next">
-                    <a href="{{ "/" | absolute_url }}{{page.next_poem}}">
-                        {{ page.next_poem }} (week {{ page.week | plus: 1 }}, {{ page.year }})
-                    </a>
-                </div>
-                {% endif %}
-                {% if page.previous_poem %}
-                <div class="prev">
-                    <a href="{{ "/" | absolute_url }}{{page.previous_poem}}">
-                        {{ page.previous_poem }} (week {{ page.week | minus: 1 }}, {{ page.year }})
-                    </a>
-                </div>
-                {% endif %}
-            </div>
+        </div>
+            {{ content }}
         </div>
     </body>
 </html>
