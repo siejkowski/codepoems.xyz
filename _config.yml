@@ -3,5 +3,7 @@ collections:
     output: true
     permalink: /:path/
 
+url: "https://swiftpoetry.com"
+
 plugins:
   - jekyll-sitemap
