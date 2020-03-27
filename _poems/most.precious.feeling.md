@@ -5,6 +5,7 @@ layout: poem
 title: most.precious.feeling
 week: 12
 year: 2020
+next_poem: fortifications
 previous_poem: exoplanets
 poem: |+
     most.precious.feeling
