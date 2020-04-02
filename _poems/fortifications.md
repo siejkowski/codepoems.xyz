@@ -5,6 +5,7 @@ layout: poem
 title: fortifications
 week: 13
 year: 2020
+next_poem: inselbergs
 previous_poem: most.precious.feeling
 poem: |+
     fortifications
