@@ -15,7 +15,7 @@ Writing poems in programming languages is known as [code poetry](https://en.wiki
 
 # Does these poems actually compile and run?
 
-Yes, they all compile and run. I'm writing them in the Xcode playgrounds. 
+Yes, they all compile and run. I'm writing them in the Xcode playgrounds. You can take a look at the [source code here](https://github.com/siejkowski/swiftpoetry.com/tree/gh-pages/playgrounds).
 
 However, I've decided to not include the symbols definitions, like classes, variables, methods, functions etc. in the poems. I believe they would be mostly just adding the noise to the actual content. However, it's just my opinion, and it might very much change in the future! 😄
 
