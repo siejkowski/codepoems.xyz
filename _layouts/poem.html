@@ -30,10 +30,12 @@
                 </div>
             </div>
             <div class="content">
-            <img 
-                alt="{{ page.poem }}"
-                src="{{ "/images/" | absolute_url }}{{ page.title }}.jpg"
-            />
+            <a href="https://github.com/siejkowski/swiftpoetry.com/tree/gh-pages/playgrounds/{{ page.title }}.playground">
+                <img 
+                    alt="{{ page.poem }}"
+                    src="{{ "/images/" | absolute_url }}{{ page.title }}.jpg"
+                />
+            </a>
             </div>
             <div class="footer">
                 {% if page.next_poem %}

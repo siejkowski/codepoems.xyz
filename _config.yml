@@ -2,6 +2,9 @@ collections:
   poems:
     output: true
     permalink: /:path/
+  # details:
+    # output: true
+    # permalink: /:path/details
 
 url: "https://swiftpoetry.com"
 
