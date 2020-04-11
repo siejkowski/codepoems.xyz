@@ -13,7 +13,7 @@ They are written by me, [Krzysztof Siejkowski](https://siejkowski.net). I'm stri
 
 Writing poems in programming languages is known as [code poetry](https://en.wikipedia.org/wiki/Code_poetry).
 
-# Does these poems actually compile and run?
+# Do these poems actually compile and run?
 
 Yes, they all compile and run. I'm writing them in the Xcode playgrounds. You can take a look at the [source code here](https://github.com/siejkowski/swiftpoetry.com/tree/gh-pages/playgrounds).
 
@@ -21,11 +21,9 @@ However, I've decided to not include the symbols definitions, like classes, vari
 
 # Who are you and why are you writing code poetry?
 
-I'm a software developer from Poland. I mostly work on mobile apps for iOS platform, which I've been doing since 2011.  
+I'm a software developer from Warsaw, Poland. I mostly work on mobile apps for iOS platform, which I've been doing since 2011, though I also had pleasure to work on Android apps, C++ SDKs and Scala backends.
 
-I'm writing code poetry because I find it fascinating. 
-
-I'm constantly blown away by the creativity I discover in the code poems. 
+I'm writing code poetry because I find it fascinating. I'm constantly blown away by the creativity I discover in the code poems. 
 
 I love how diverse this literary niche is and how you can work with these poems on so many levels: the level of English language, the level of programming language, the level of the actual outcome the poem produces when it's being executed. 
 
