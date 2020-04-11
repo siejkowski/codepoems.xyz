@@ -5,6 +5,7 @@ layout: poem
 title: inselbergs
 week: 14
 year: 2020
+next_poem: side.effects
 previous_poem: fortifications
 poem: |+
     inselbergs (song)
