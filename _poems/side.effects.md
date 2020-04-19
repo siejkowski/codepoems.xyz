@@ -5,6 +5,7 @@ layout: poem
 title: side.effects
 week: 15
 year: 2020
+next_poem: unsafemutablerawbufferpointers
 previous_poem: inselbergs
 poem: |+
     side.effects
