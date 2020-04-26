@@ -5,6 +5,7 @@ layout: poem
 title: unsafemutablerawbufferpointers
 week: 16
 year: 2020
+next_poem: chimeras
 previous_poem: side.effects
 poem: |+
     class Us {
