@@ -5,6 +5,7 @@ layout: poem
 title: chimeras
 week: 17
 year: 2020
+next_poem: Joel's.apology
 previous_poem: unsafemutablerawbufferpointers
 poem: |+
     chimeras                             [tribute(to: tim.hecker)]
