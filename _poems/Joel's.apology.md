@@ -5,6 +5,7 @@ layout: poem
 title: Joel's.apology
 week: 18
 year: 2020
+next_poem: input
 previous_poem: chimeras
 poem: |+
     Joelʼs.apology
