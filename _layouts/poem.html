@@ -30,10 +30,24 @@
                 </div>
             </div>
             <div class="content">
+                {% if page.has_context %}
                 <img 
+                    class="tuple"
                     alt="{{ page.poem }}"
                     src="{{ "/images/" | absolute_url }}{{ page.title }}.jpeg"
                 />
+                <img 
+                    class="tuple"
+                    alt="{{ page.poem }}"
+                    src="{{ "/images/" | absolute_url }}{{ page.title }}.context.jpeg"
+                />
+                {% else %}
+                <img 
+                    class="single"
+                    alt="{{ page.poem }}"
+                    src="{{ "/images/" | absolute_url }}{{ page.title }}.jpeg"
+                />
+                {% endif %}
                 <a href="https://github.com/siejkowski/swiftpoetry.com/tree/gh-pages/playgrounds/{{ page.title }}.playground"
                    style="display:block; width:50%; height:50%; position:absolute; left: 25%; top: 25%;"></a>
             </div>

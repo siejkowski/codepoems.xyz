@@ -5,6 +5,7 @@ layout: poem
 title: input
 week: 19
 year: 2020
+next_poem: sztupol
 previous_poem: Joel's.apology
 poem: |+
     input.your(
