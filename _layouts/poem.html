@@ -55,14 +55,22 @@
                 {% if page.next_poem %}
                 <div class="next">
                     <a href="{{ "/" | absolute_url }}{{page.next_poem}}">
+                        {% if page.next_week %}
+                        {{ page.next_poem }} (week {{ page.next_week }}, {{ page.year }})
+                        {% else %}
                         {{ page.next_poem }} (week {{ page.week | plus: 1 }}, {{ page.year }})
+                        {% endif %}
                     </a>
                 </div>
                 {% endif %}
                 {% if page.previous_poem %}
                 <div class="prev">
                     <a href="{{ "/" | absolute_url }}{{page.previous_poem}}">
+                        {% if page.previous_week %}
+                        {{ page.previous_poem }} (week {{ page.previous_week }}, {{ page.year }})
+                        {% else %}
                         {{ page.previous_poem }} (week {{ page.week | minus: 1 }}, {{ page.year }})
+                        {% endif %}
                     </a>
                 </div>
                 {% endif %}

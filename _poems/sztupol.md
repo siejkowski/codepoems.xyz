@@ -6,6 +6,8 @@ title: sztupol
 week: 20
 year: 2020
 has_context: true
+next_poem: too.late.for.russia
+next_week: 31
 previous_poem: input
 poem: |+
     sztupol
