@@ -5,6 +5,7 @@ layout: poem
 title: too.late.for.russia
 week: 31
 year: 2020
+next_poem: betting.on.tortoise
 previous_poem: sztupol
 previous_week: 20
 poem: |+
