@@ -113,3 +113,14 @@ img.tuple {
     font-family: 'JetBrainsMono-Regular', monospace;
     color: rgb(88, 88, 88);
 }
+
+.comment {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-family: 'JetBrainsMono-Regular', monospace;
+    color: rgb(88, 88, 88);
+}
