@@ -6,6 +6,7 @@ title: betting.on.tortoise
 week: 32
 year: 2020
 previous_poem: too.late.for.russia
+next_poem: pancakes
 poem: |+
     letʼs.make(a: race, between: the.doom, and: us)(
     Zenoʼs.paradoxes, vs: Senecaʼs.effect)
