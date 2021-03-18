@@ -24,7 +24,8 @@ public enum his {
   public static let appetite: Void = ()
   public enum favourite { public static let kind: Bool = true }
 }
-public enum growing { public typealias back = Void }
+public enum growing { public typealias back = _back }
+public protocol _back {}
 
 public enum he { public static func asked(for: Void?) -> Int { 0 } }
 public enum making {
@@ -67,7 +68,7 @@ public func aliens(with: Void) -> asd {
 public enum you { public static let know: Bool = true }
 public enum these { public static let days: Bool = true }
 public enum hospitals { public enum and { public static let all: Bool = true }}
-public typealias back = Void
+public protocol back {}
 extension Bool: ExpressibleByIntegerLiteral {
   public init(integerLiteral value: Int) { self.init(false) }
 }
