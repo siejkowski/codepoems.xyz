@@ -6,7 +6,7 @@ collections:
     # output: true
     # permalink: /:path/details
 
-url: "https://swiftpoetry.com"
+url: "https://codepoems.xyz"
 
 plugins:
   - jekyll-sitemap
